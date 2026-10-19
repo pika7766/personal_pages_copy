@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title></title>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <style>
+    :root{color-scheme:light;--bg:#f4f8f9;--surface:#fff;--text:#172328;--muted:#64757c;--line:#d5e2e6;--accent:#087f8c;--soft:#e5f5f5;--shadow:0 10px 28px rgba(19,52,60,.08)}
+    [data-theme="dark"]{color-scheme:dark;--bg:#0d1518;--surface:#151f23;--text:#edf7f7;--muted:#98a9af;--line:#2b3b41;--accent:#4bd5d2;--soft:#143437;--shadow:0 12px 30px rgba(0,0,0,.22)}
+    *{box-sizing:border-box}.data-loading header,.data-loading main,.data-loading footer,.data-loading .toast{visibility:hidden}html{scroll-behavior:smooth}body{margin:0;background-color:var(--bg);background-image:linear-gradient(90deg,color-mix(in srgb,var(--accent) 4%,transparent) 1px,transparent 1px),linear-gradient(color-mix(in srgb,var(--accent) 4%,transparent) 1px,transparent 1px),radial-gradient(color-mix(in srgb,var(--accent) 18%,transparent) 1px,transparent 1px);background-size:84px 84px,84px 84px,28px 28px;color:var(--text);font-family:Inter,"Noto Sans TC","PingFang TC",system-ui,sans-serif;line-height:1.65;letter-spacing:0;transition:background-color .3s,color .3s}a{color:inherit}button{font:inherit}.shell{width:min(960px,calc(100% - 36px));margin:auto}header{position:sticky;top:0;z-index:10;border-bottom:1px solid var(--line);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px)}nav{height:64px;display:flex;align-items:center;gap:22px}.brand{margin-right:auto;text-decoration:none;font-weight:800}.brand span{color:var(--accent)}.nav-links{display:flex;gap:20px}.nav-links a{text-decoration:none;color:var(--muted);font-size:14px}.nav-links a:hover{color:var(--accent)}.nav-links a.active{color:var(--accent);font-weight:750}.nav-links a.active::after{content:"";display:block;height:2px;margin-top:4px;background:var(--accent)}.progress{position:absolute;left:0;bottom:-1px;width:0;height:2px;background:var(--accent);transition:width .08s linear}.icon-btn{width:38px;height:38px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--text);display:grid;place-items:center;cursor:pointer}.icon-btn svg{width:18px}.theme-toggle{width:auto;min-width:92px;padding:0 12px;grid-auto-flow:column;gap:7px;font-size:13px;font-weight:700}.theme-toggle svg{width:16px}.menu{display:none}.hero{padding:72px 0 56px;border-bottom:1px solid var(--line);text-align:left}.kicker{margin:0 0 13px;color:var(--accent);font:700 12px ui-monospace,Consolas,monospace;text-transform:uppercase}h1{margin:0;max-width:720px;font-size:clamp(42px,7vw,72px);line-height:1.08;letter-spacing:0;text-align:left}.intro{max-width:650px;margin:20px 0 0;color:var(--muted);font-size:17px}section{padding:52px 0;scroll-margin-top:76px;border-bottom:1px solid var(--line)}.section-head{display:flex;flex-direction:column;align-items:flex-start;gap:7px;margin-bottom:24px;text-align:left}.index{color:var(--accent);font:700 12px ui-monospace,Consolas,monospace}h2{margin:0;width:100%;font-size:29px;line-height:1.25;text-align:left}h3{margin:0;font-size:18px}.subhead{display:flex;align-items:center;gap:9px;width:100%;margin:30px 0 13px;padding:10px 12px;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--text);cursor:pointer;text-align:left}.subhead:hover{border-color:var(--line);background:var(--soft)}.subhead:first-child{margin-top:0}.subhead svg{width:19px;color:var(--accent)}.subhead .chevron{margin-left:auto;transition:transform .2s}.subhead[aria-expanded="false"] .chevron{transform:rotate(-90deg)}.experience-list.collapsed{display:none}.writing{display:grid;grid-template-columns:1fr 1fr;gap:12px}.text-panel{min-height:170px;padding:22px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}.autobiography-panel{display:flex;flex-direction:column}.text-panel p{margin:10px 0 0;color:var(--muted);text-align:justify;text-justify:inter-ideograph}#autobiography{display:grid;flex:1;align-content:center}#learningPlan{white-space:pre-line;line-height:1.8}.placeholder{font-style:italic}.experience-list{border-top:1px solid var(--line)}.experience{display:block;padding:15px 12px;border-bottom:1px solid var(--line);transition:background .18s,padding-left .18s}.experience:hover{padding-left:18px;background:color-mix(in srgb,var(--soft) 65%,transparent)}.experience p{margin:0;font-weight:650}.experience p small{margin-left:8px;color:var(--muted);font-weight:500}.proof,.experience>span{display:none}.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.project{display:flex;min-height:180px;flex-direction:column;padding:20px;border:1px solid var(--line);border-radius:6px;background:var(--surface);text-decoration:none;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:var(--accent);box-shadow:var(--shadow)}.project:focus-visible,.icon-btn:focus-visible,.subhead:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 35%,transparent);outline-offset:2px}.project .type{color:var(--accent);font:700 11px ui-monospace,Consolas,monospace}.project h3{margin-top:22px}.project span:last-child{display:flex;align-items:center;gap:6px;margin-top:auto;color:var(--muted);font-size:12px}.project svg{width:14px}.certs{display:flex;flex-wrap:wrap;gap:10px}.cert{display:flex;align-items:center;gap:10px;padding:14px 17px;border:1px solid var(--line);border-radius:6px;background:var(--surface);font-weight:700;transition:transform .18s,border-color .18s}.cert:hover{transform:translateY(-2px);border-color:var(--accent)}.cert svg{width:18px;color:var(--accent)}.contacts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.contact-item{min-height:112px;padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--surface);display:flex;align-items:center;gap:14px;color:var(--text);text-decoration:none;text-align:left;cursor:pointer;transition:transform .2s,border-color .2s,box-shadow .2s}.contact-item:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:var(--shadow)}.contact-icon{width:40px;height:40px;flex:0 0 40px;display:grid;place-items:center;border-radius:6px;background:var(--soft);color:var(--accent)}.contact-icon svg{width:20px}.contact-copy{min-width:0}.contact-copy small{display:block;color:var(--muted);font-size:12px}.contact-copy strong{display:block;overflow-wrap:anywhere;font-size:15px}.contact-action{margin-left:auto;color:var(--muted)}.contact-action svg{width:17px}.toast{position:fixed;left:50%;bottom:24px;z-index:30;padding:10px 15px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--text);box-shadow:var(--shadow);font-size:13px;transform:translate(-50%,20px);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s}.toast.show{opacity:1;transform:translate(-50%,0)}footer{padding:24px 0 40px;color:var(--muted);font-size:12px}.reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}.reveal.visible{opacity:1;transform:none}@media(max-width:720px){.nav-links{display:none;position:absolute;top:58px;left:18px;right:18px;padding:14px;flex-direction:column;border:1px solid var(--line);background:var(--surface);box-shadow:var(--shadow)}.nav-links.open{display:flex}.menu{display:grid}.hero{padding-top:52px}.section-head{gap:7px}.writing,.projects,.contacts{grid-template-columns:1fr}.text-panel{min-height:140px}.experience{align-items:start}.proof{padding:7px}.proof span{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  </style>
+</head>
+<body class="data-loading">
+  <header><nav class="shell" aria-label="主要導覽"><a class="brand" id="siteBrand" href="#top">pika的個人網頁<span></span></a><div class="nav-links" id="navLinks"><a href="#profile">自傳與規劃</a><a href="#experience">相關經歷</a><a href="#works">作品紀錄</a><a href="#certificates">證照</a><a href="#contact">聯絡方式</a></div><button class="icon-btn theme-toggle" id="themeButton" aria-label="切換為暗色背景" title="切換亮色或暗色背景"><i data-lucide="moon"></i><span>暗色</span></button><button class="icon-btn menu" id="menuButton" aria-label="開啟選單" aria-expanded="false"><i data-lucide="menu"></i></button></nav><div class="progress" id="progress" aria-hidden="true"></div></header>
+  <main id="top" class="shell">
+    <div class="hero"><p class="kicker" id="siteKicker">Personal learning portfolio / 2026</p><h1 id="siteHeadline">我的學習歷程與實作紀錄</h1><p class="intro" id="siteDescription">整理資訊社群參與、競賽與活動經歷，以及程式實作與自主學習成果。</p></div>
+
+    <section id="profile"><div class="section-head"><span class="index">01 / PROFILE</span><h2>個人自傳與學習規劃</h2></div><div class="writing"><article class="text-panel autobiography-panel"><h3>自傳</h3><p class="placeholder" id="autobiography">自傳內容待補。</p></article><article class="text-panel"><h3>學習規劃</h3><p class="placeholder" id="learningPlan">學習規劃內容待補。</p></article></div></section>
+
+    <section id="experience"><div class="section-head"><span class="index">02 / EXPERIENCE</span><h2>相關經歷</h2></div>
+      <button class="subhead" type="button" aria-expanded="true"><i data-lucide="code-2"></i>資訊<i class="chevron" data-lucide="chevron-down"></i></button><div class="experience-list" id="informationExperiences">
+        <div class="experience"><p>南大附中資訊研究社第二屆 最佳上進獎</p><a class="proof" href="相關照片/資訊研究社最佳上進獎.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>南大附中資訊研究社第二屆期末賽 第一名</p><a class="proof" href="相關照片/資訊研究社社末賽.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>SCIST南台灣學生資訊社群演算法推廣課程</p><a class="proof" href="相關照片/SCIST演算法推廣課程證明書.jpg" target="_blank"><i data-lucide="image"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>南七校資訊社聯合迎新 參加者</p><span><a class="proof" href="相關照片/資訊迎新-總錦標.jpg" target="_blank"><i data-lucide="image"></i><span>照片 1</span></a> <a class="proof" href="相關照片/資訊迎新-大富大貴獎.jpg" target="_blank"><i data-lucide="image"></i><span>照片 2</span></a> <a class="proof" href="相關照片/資訊迎新-股市交易王.jpg" target="_blank"><i data-lucide="image"></i><span>照片 3</span></a></span></div>
+        <div class="experience"><p>[資深玩家] SCIST 2025 聯合寒訓 學員</p></div><div class="experience"><p>南四校聯合社課 學員</p></div>
+        <div class="experience"><p>第十三屆高一新生程式設計排名賽 第16名</p><a class="proof" href="相關照片/台南一中資訊排名賽.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>SITCON CAMP 2025 學員</p><a class="proof" href="相關照片/SITCON camp 2025 證明書.jpg" target="_blank"><i data-lucide="image"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>YTP少年圖靈計畫 參加者</p></div>
+        <div class="experience"><p>AIS3全國資安社團幹部研習營</p><a class="proof" href="相關照片/AIS3 club參加證明.jpg" target="_blank"><i data-lucide="image"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>南九校聯合茶會 副召</p></div><div class="experience"><p>南十校資訊社聯合迎新 活動組 組員</p></div><div class="experience"><p>南十校資訊社聯合迎新 機動組 組長</p></div><div class="experience"><p>2025 MOPCON 場務組 組員</p></div>
+        <div class="experience"><p>THJCC CTF 2026 第78名</p><a class="proof" href="相關照片/THJCC.pdf" target="_blank"><i data-lucide="file-text"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>SCIST x SCAICT 2026聯合寒訓 隊輔組 組員</p><a class="proof" href="相關照片/SCIST x SCAICT 2026聯合寒訓.pdf" target="_blank"><i data-lucide="file-text"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>南大附中資訊研究社114社團評鑑 優等</p><a class="proof" href="相關照片/資訊研究社社團評鑑.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+      </div>
+      <button class="subhead" type="button" aria-expanded="true"><i data-lucide="award"></i>非資訊<i class="chevron" data-lucide="chevron-down"></i></button><div class="experience-list" id="otherExperiences">
+        <div class="experience"><p>PowerTech青少年科技創作競賽台南市選拔賽清道達人組第二名</p><a class="proof" href="相關照片/台南市powertech.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>PowerTech青少年科技創作競賽全國賽 國中全能新秀組佳作</p><a class="proof" href="相關照片/全國powertech.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>新市國中 市長佳行獎</p><a class="proof" href="相關照片/市長佳行獎.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>2024國際淨灘行動 台南場</p><a class="proof" href="相關照片/淨灘活動證明書.jpg" target="_blank"><i data-lucide="image"></i><span>查看證明</span></a></div>
+        <div class="experience"><p>南大附中 高一孝親楷模</p><a class="proof" href="相關照片/孝親楷模.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>南大附中第十二屆阿勃勒文藝季現代文學創作比賽新詩組第一名</p><a class="proof" href="相關照片/阿勃勒文學獎.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>全國高級中等學校閱讀心得寫作比賽 二年級 特優</p><a class="proof" href="相關照片/閱讀心得比賽.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>南二區跨校自主學習分享會</p><a class="proof" href="相關照片/自主學習發表會.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>南大附中114自主學習成果發表會 化學科 特優</p><a class="proof" href="相關照片/自主學習比賽.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+        <div class="experience"><p>南大附中 高二德行楷模</p><a class="proof" href="相關照片/德行獎.jpg" target="_blank"><i data-lucide="image"></i><span>查看照片</span></a></div>
+      </div>
+    </section>
+
+    <section id="works"><div class="section-head"><span class="index">03 / PROJECTS</span><h2>實作作品集與自學紀錄</h2></div><div class="projects" id="projectsList">
+      <a class="project" href="https://hackmd.io/@uCfZjy2TR2-hbhlL5w7ZIg/rJchzgoYxl/https%3A%2F%2Fpika311435-2.github.io%2FNFIRC%2F" target="_blank" rel="noreferrer"><span class="type">個人</span><h3>社團網頁</h3><span>開啟作品 <i data-lucide="arrow-up-right"></i></span></a>
+      <a class="project" href="https://vgesture-afnq5ut3yqghd8aq53nryk.streamlit.app/" target="_blank" rel="noreferrer"><span class="type">個人</span><h3>手勢偵測</h3><span>開啟作品 <i data-lucide="arrow-up-right"></i></span></a>
+      <a class="project" href="https://pika311435-2.github.io/parkgo/" target="_blank" rel="noreferrer"><span class="type">組別</span><h3>SITCON CAMP 2025<br>停車場比價網</h3><span>開啟作品 <i data-lucide="arrow-up-right"></i></span></a>
+    </div></section>
+
+    <section id="certificates"><div class="section-head"><span class="index">04 / CERTIFICATES</span><h2>證照</h2></div><div class="certs" id="certificatesList"><div class="cert"><i data-lucide="badge-check"></i>GEPT 初級</div><div class="cert"><i data-lucide="badge-check"></i>APCS 程式識讀 3</div><div class="cert"><i data-lucide="badge-check"></i>APCS 程式實作 2</div></div></section>
+
+    <section id="contact"><div class="section-head"><span class="index">05 / CONTACT</span><h2>聯絡方式</h2></div><div class="contacts" id="contactsList"><button class="contact-item" id="copyDiscord" type="button" data-copy="pikachu5764"><span class="contact-icon"><i data-lucide="message-circle"></i></span><span class="contact-copy"><small>Discord</small><strong>pikachu5764</strong></span><span class="contact-action"><i data-lucide="copy"></i></span></button><a class="contact-item" href="https://www.instagram.com/pika.tntcsh?igsh=Ym9na3V1ZWQ5NHBl" target="_blank" rel="noreferrer"><span class="contact-icon"><i data-lucide="instagram"></i></span><span class="contact-copy"><small>Instagram</small><strong>@pika.tntcsh</strong></span><span class="contact-action"><i data-lucide="arrow-up-right"></i></span></a></div></section>
+  </main>
+  <footer class="shell" id="siteFooter">個人學習歷程資料</footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">已複製 Discord 使用者名稱</div>
+  <script>
+    const root=document.documentElement,themeButton=document.getElementById('themeButton'),menuButton=document.getElementById('menuButton'),navLinks=document.getElementById('navLinks');
+    function icons(){if(window.lucide)lucide.createIcons()}
+    function setTheme(theme){const isDark=theme==='dark';root.dataset.theme=theme;localStorage.setItem('learning-theme',theme);themeButton.innerHTML=`<i data-lucide="${isDark?'sun':'moon'}"></i><span>${isDark?'亮色':'暗色'}</span>`;themeButton.setAttribute('aria-label',isDark?'切換為亮色背景':'切換為暗色背景');themeButton.title=isDark?'切換為亮色背景':'切換為暗色背景';icons()}
+    setTheme(localStorage.getItem('learning-theme')||'dark');
+    themeButton.addEventListener('click',()=>setTheme(root.dataset.theme==='dark'?'light':'dark'));
+    menuButton.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));menuButton.innerHTML=`<i data-lucide="${open?'x':'menu'}"></i>`;icons()});
+    navLinks.addEventListener('click',()=>navLinks.classList.remove('open'));
+
+    document.querySelectorAll('.subhead').forEach(button=>button.addEventListener('click',()=>{
+      const list=button.nextElementSibling;
+      const expanded=button.getAttribute('aria-expanded')==='true';
+      button.setAttribute('aria-expanded',String(!expanded));
+      list.classList.toggle('collapsed',expanded);
+    }));
+
+    const contactsList=document.getElementById('contactsList');
+    contactsList.addEventListener('click',async event=>{
+      const copyButton=event.target.closest('[data-copy]');
+      if(!copyButton)return;
+      const value=copyButton.dataset.copy;
+      try{await navigator.clipboard.writeText(value)}catch(error){
+        const input=document.createElement('textarea');input.value=value;document.body.appendChild(input);input.select();document.execCommand('copy');input.remove();
+      }
+      const toast=document.getElementById('toast');toast.textContent=`已複製 ${copyButton.dataset.platform||'聯絡資訊'}`;toast.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>toast.classList.remove('show'),1800);
+    });
+
+    function escapeHTML(value){return String(value??'').replace(/[&<>"']/g,character=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[character]))}
+    function renderExperience(item){
+      const role=item.role?`<small>${escapeHTML(item.role)}</small>`:'';
+      const evidence=(item.evidence||[]).map(file=>`<a class="proof" href="${escapeHTML(file.path)}" target="_blank" rel="noreferrer"><i data-lucide="${file.type==='document'?'file-text':'image'}"></i><span>${escapeHTML(file.label)}</span></a>`).join('');
+      return `<div class="experience" data-id="${escapeHTML(item.id)}"><p>${escapeHTML(item.title)}${role}</p>${evidence}</div>`;
+    }
+    function renderContact(item){
+      const icon=item.platform==='Instagram'?'instagram':'message-circle';
+      const content=`<span class="contact-icon"><i data-lucide="${icon}"></i></span><span class="contact-copy"><small>${escapeHTML(item.platform)}</small><strong>${escapeHTML(item.label)}</strong></span><span class="contact-action"><i data-lucide="${item.url?'arrow-up-right':'copy'}"></i></span>`;
+      return item.url
+        ?`<a class="contact-item" href="${escapeHTML(item.url)}" target="_blank" rel="noreferrer">${content}</a>`
+        :`<button class="contact-item" type="button" data-copy="${escapeHTML(item.copyValue||item.label)}" data-platform="${escapeHTML(item.platform)}">${content}</button>`;
+    }
+    function clearPortfolioData(){
+      document.title='';
+      document.querySelector('meta[name="description"]').content='';
+      document.querySelector('header').innerHTML='';
+      document.querySelector('main').innerHTML='';
+      document.getElementById('siteFooter').textContent='';
+      document.getElementById('toast').textContent='';
+    }
+    async function loadPortfolioData(){
+      try{
+        const response=await fetch('./portfolio-data.json',{cache:'no-cache'});
+        if(!response.ok)throw new Error(`HTTP ${response.status}`);
+        const data=await response.json();
+        if(!data.site||!data.profile||!Array.isArray(data.experiences)||!Array.isArray(data.projects)||!Array.isArray(data.certificates)||!Array.isArray(data.contacts))throw new Error('JSON 缺少必要欄位');
+        document.title=data.site.title||'';
+        document.querySelector('meta[name="description"]').content=data.site.description||'';
+        document.getElementById('siteDescription').textContent=data.site.description||'';
+        document.getElementById('siteKicker').textContent=data.site.kicker||`Personal learning portfolio / ${data.site.year||''}`;
+        document.getElementById('siteBrand').textContent=data.site.brand||'';
+        document.getElementById('siteHeadline').textContent=data.site.headline||'';
+        document.getElementById('siteFooter').textContent=data.site.footer||'';
+
+        const autobiography=document.getElementById('autobiography');
+        const learningPlan=document.getElementById('learningPlan');
+        autobiography.textContent=data.profile.autobiography||'';
+        learningPlan.textContent=data.profile.learningPlan||'';
+        autobiography.classList.remove('placeholder');
+        learningPlan.classList.remove('placeholder');
+
+        document.getElementById('informationExperiences').innerHTML=data.experiences.filter(item=>item.category==='資訊').map(renderExperience).join('');
+        document.getElementById('otherExperiences').innerHTML=data.experiences.filter(item=>item.category!=='資訊').map(renderExperience).join('');
+        document.getElementById('projectsList').innerHTML=data.projects.map(project=>`<a class="project" data-id="${escapeHTML(project.id)}" href="${escapeHTML(project.url)}" target="_blank" rel="noreferrer"><span class="type">${escapeHTML(project.type)}</span><h3>${escapeHTML(project.title)}</h3><span>開啟作品 <i data-lucide="arrow-up-right"></i></span></a>`).join('');
+        document.getElementById('certificatesList').innerHTML=data.certificates.map(certificate=>`<div class="cert" data-id="${escapeHTML(certificate.id)}"><i data-lucide="badge-check"></i>${escapeHTML(certificate.name)}</div>`).join('');
+        contactsList.innerHTML=data.contacts.map(renderContact).join('');
+        document.body.classList.remove('data-loading');
+        icons();
+        updateProgress();
+      }catch(error){
+        clearPortfolioData();
+        console.error('無法載入 portfolio-data.json。',error);
+      }
+    }
+    loadPortfolioData();
+
+    const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const revealItems=document.querySelectorAll('section,.project,.cert');
+    if(reducedMotion){revealItems.forEach(item=>item.classList.add('visible'))}else{
+      revealItems.forEach(item=>item.classList.add('reveal'));
+      const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+        if(entry.isIntersecting){entry.target.classList.add('visible');revealObserver.unobserve(entry.target)}
+      }),{threshold:.1});
+      revealItems.forEach(item=>revealObserver.observe(item));
+    }
+
+    const sections=document.querySelectorAll('main section');
+    const navItems=document.querySelectorAll('.nav-links a');
+    const sectionObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{
+      if(entry.isIntersecting){navItems.forEach(link=>link.classList.toggle('active',link.hash==='#'+entry.target.id))}
+    }),{rootMargin:'-35% 0px -55% 0px'});
+    sections.forEach(section=>sectionObserver.observe(section));
+
+    const progress=document.getElementById('progress');
+    function updateProgress(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=`${max>0?(scrollY/max)*100:0}%`}
+    addEventListener('scroll',updateProgress,{passive:true});updateProgress();
+    window.addEventListener('DOMContentLoaded',icons);
+  </script>
+</body>
+</html>

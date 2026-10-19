@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-09-30",
+  "site": {
+    "title": "pika.stusite.me",
+    "brand": "pika的個人網頁",
+    "kicker": "Personal webpage",
+    "headline": "pika個人網頁",
+    "description": "整理資訊社群參與、競賽與活動經歷，以及程式實作與自主學習成果的個人網頁。",
+    "footer": "pika個人網站",
+    "year": 2026
+  },
+  "profile": {
+    "autobiography": "我的暱稱是皮卡（pika）。我非常喜歡寶可夢，我平常喜歡玩手機、寫程式，尤其對軟體開發非常有興趣，未來希望能成為一名軟體工程師。\n我主要使用的程式語言是 Python 與 C++，並具備基礎的網頁前端（HTML/CSS）概念。",
+    "learningPlan": "1. 近期目標：參加校外的營隊和課程，接觸並學習平常高中少見的實務開發領域（如機器學習、資料科學的基礎原理與應用）。\n\n2. 中期目標：在大學與研究所期間，把資工系的演算法、資料結構練紮實，並透過雙主修/輔系來修讀資管系。大三大四產出兼具效能與使用者體驗的實務專案。\n\n3. 長期目標：就職方面我計畫從軟體產品經理切入，並期望成為科技業高階主管。"
+  },
+  "experiences": [
+    {
+      "id": "exp-001",
+      "category": "資訊",
+      "title": "南大附中資訊研究社第二屆 最佳上進獎",
+      "date": "",
+      "role": "獲獎者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/資訊研究社最佳上進獎.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-002",
+      "category": "資訊",
+      "title": "南大附中資訊研究社第二屆期末賽 第一名",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/資訊研究社社末賽.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-003",
+      "category": "資訊",
+      "title": "SCIST南台灣學生資訊社群演算法推廣課程",
+      "date": "",
+      "role": "學員",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "image",
+          "path": "相關照片/SCIST演算法推廣課程證明書.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-004",
+      "category": "資訊",
+      "title": "南七校資訊社聯合迎新",
+      "date": "",
+      "role": "參加者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "照片 1",
+          "type": "image",
+          "path": "相關照片/資訊迎新-總錦標.jpg"
+        },
+        {
+          "label": "照片 2",
+          "type": "image",
+          "path": "相關照片/資訊迎新-大富大貴獎.jpg"
+        },
+        {
+          "label": "照片 3",
+          "type": "image",
+          "path": "相關照片/資訊迎新-股市交易王.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-005",
+      "category": "資訊",
+      "title": "[資深玩家] SCIST 2025 聯合寒訓",
+      "date": "2025",
+      "role": "學員",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-006",
+      "category": "資訊",
+      "title": "南四校聯合社課",
+      "date": "",
+      "role": "學員",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-007",
+      "category": "資訊",
+      "title": "第十三屆高一新生程式設計排名賽 第16名",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/台南一中資訊排名賽.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-008",
+      "category": "資訊",
+      "title": "SITCON CAMP 2025",
+      "date": "2025",
+      "role": "學員",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "image",
+          "path": "相關照片/SITCON camp 2025 證明書.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-009",
+      "category": "資訊",
+      "title": "YTP少年圖靈計畫",
+      "date": "",
+      "role": "參加者",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-010",
+      "category": "資訊",
+      "title": "AIS3全國資安社團幹部研習營",
+      "date": "",
+      "role": "學員",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "image",
+          "path": "相關照片/AIS3 club參加證明.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-011",
+      "category": "資訊",
+      "title": "南九校聯合茶會",
+      "date": "",
+      "role": "副召",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-012",
+      "category": "資訊",
+      "title": "南十校資訊社聯合迎新",
+      "date": "",
+      "role": "活動組組員",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-013",
+      "category": "資訊",
+      "title": "南十校資訊社聯合迎新",
+      "date": "",
+      "role": "機動組組長",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-014",
+      "category": "資訊",
+      "title": "2025 MOPCON",
+      "date": "2025",
+      "role": "場務組組員",
+      "description": "",
+      "evidence": []
+    },
+    {
+      "id": "exp-015",
+      "category": "資訊",
+      "title": "THJCC CTF 2026-1 第78名",
+      "date": "2026/2/21",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "document",
+          "path": "相關照片/THJCC.pdf"
+        }
+      ]
+    },
+    {
+      "id": "exp-016",
+      "category": "資訊",
+      "title": "SCIST x SCAICT 2026聯合寒訓",
+      "date": "2026",
+      "role": "隊輔組組員",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "document",
+          "path": "相關照片/SCIST x SCAICT 2026聯合寒訓.pdf"
+        }
+      ]
+    },
+    {
+      "id": "exp-017",
+      "category": "資訊",
+      "title": "南大附中資訊研究社114社團評鑑 優等",
+      "date": "",
+      "role": "社團社長",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/資訊研究社社團評鑑.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-017",
+      "category": "資訊",
+      "title": "SITCON CAMP 2026",
+      "date": "",
+      "role": "學員",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/資訊研究社社團評鑑.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-018",
+      "category": "資訊",
+      "title": "THJCC CTF 2026-2 第45名",
+      "date": "2026/8/15",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/資訊研究社社團評鑑.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-018",
+      "category": "非資訊",
+      "title": "PowerTech青少年科技創作競賽台南市選拔賽清道達人組第二名",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/台南市powertech.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-019",
+      "category": "非資訊",
+      "title": "PowerTech青少年科技創作競賽全國賽 國中全能新秀組佳作",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/全國powertech.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-020",
+      "category": "非資訊",
+      "title": "新市國中 市長佳行獎",
+      "date": "",
+      "role": "獲獎者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/市長佳行獎.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-021",
+      "category": "非資訊",
+      "title": "2024國際淨灘行動 台南場",
+      "date": "2024",
+      "role": "參加者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看證明",
+          "type": "image",
+          "path": "相關照片/淨灘活動證明書.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-022",
+      "category": "非資訊",
+      "title": "南大附中 高一孝親楷模",
+      "date": "",
+      "role": "獲獎者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/孝親楷模.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-023",
+      "category": "非資訊",
+      "title": "南大附中第十二屆阿勃勒文藝季現代文學創作比賽新詩組第一名",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/阿勃勒文學獎.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-024",
+      "category": "非資訊",
+      "title": "全國高級中等學校閱讀心得寫作比賽 二年級 特優",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/閱讀心得比賽.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-025",
+      "category": "非資訊",
+      "title": "南二區跨校自主學習分享會",
+      "date": "",
+      "role": "分享者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/自主學習發表會.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-026",
+      "category": "非資訊",
+      "title": "南大附中114自主學習成果發表會 化學科 特優",
+      "date": "",
+      "role": "參賽者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/自主學習比賽.jpg"
+        }
+      ]
+    },
+    {
+      "id": "exp-027",
+      "category": "非資訊",
+      "title": "南大附中 高二德行楷模",
+      "date": "",
+      "role": "獲獎者",
+      "description": "",
+      "evidence": [
+        {
+          "label": "查看照片",
+          "type": "image",
+          "path": "相關照片/德行獎.jpg"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-001",
+      "title": "社團網頁&課程",
+      "type": "個人",
+      "description": "NFIRC 3rd上課簡報&社團網頁",
+      "url": "https://hackmd.io/@uCfZjy2TR2-hbhlL5w7ZIg/rJchzgoYxl/https%3A%2F%2Fpika311435-2.github.io%2FNFIRC%2F",
+      "technologies": []
+    },
+    {
+      "id": "project-002",
+      "title": "手勢偵測",
+      "type": "個人",
+      "description": "高中專題製作，可以偵測YA手勢",
+      "url": "https://vgesture-afnq5ut3yqghd8aq53nryk.streamlit.app/",
+      "technologies": []
+    },
+    {
+      "id": "project-003",
+      "title": "台灣智慧生活網",
+      "type": "個人(AI 輔助開發)",
+      "description": "「台灣智慧生活網」是一個以互動地圖為核心的公共資訊整合網站，將交通、天氣、防災、政府開放資料與常用生活服務集中在同一個操作介面，可在桌機與手機瀏覽器使用。\n (部分功能仍未完善)",
+      "url": "https://github.com/pika7766/Taiwan-Information",
+      "technologies": []
+    },
+    {
+      "id": "project-004",
+      "title": "SITCON CAMP 2025 停車場比價網",
+      "type": "組別",
+      "description": "可以查詢北部停車場相關資料",
+      "url": "https://github.com/casperchen1/ParkGO.git",
+      "technologies": []
+    }
+  ],
+  "certificates": [
+    {
+      "id": "cert-001",
+      "name": "GEPT 初級",
+      "issuer": "LTTC",
+      "date": "",
+      "evidence": []
+    },
+    {
+      "id": "cert-002",
+      "name": "APCS 程式識讀 3",
+      "issuer": "APCS",
+      "date": "",
+      "evidence": []
+    },
+    {
+      "id": "cert-003",
+      "name": "APCS 程式實作 2",
+      "issuer": "APCS",
+      "date": "",
+      "evidence": []
+    }
+  ],
+  "contacts": [
+    {
+      "id": "contact-discord",
+      "platform": "Discord",
+      "label": "pikachu5764",
+      "url": "",
+      "copyValue": "pikachu5764"
+    },
+    {
+      "id": "contact-instagram",
+      "platform": "Instagram",
+      "label": "@pika.tntcsh",
+      "url": "https://www.instagram.com/pika.tntcsh?igsh=Ym9na3V1ZWQ5NHBl",
+      "copyValue": ""
+    }
+  ],
+  "_fieldDescriptions": {
+    "schemaVersion": "資料格式版本；修改整體 JSON 結構時遞增。",
+    "lastUpdated": "資料最後更新日期，建議使用 YYYY-MM-DD 格式。",
+    "site": "網站基本設定。",
+    "site.title": "瀏覽器分頁顯示的網站標題。",
+    "site.brand": "導覽列左側顯示的品牌名稱。",
+    "site.kicker": "首頁主標題上方的小型英文標示。",
+    "site.headline": "首頁最主要的大標題。",
+    "site.description": "網站簡介，同時用於搜尋引擎描述。",
+    "site.footer": "頁面最下方顯示的文字。",
+    "site.year": "網站資料所屬年份。",
+    "profile": "個人文字資料。",
+    "profile.autobiography": "個人自傳內容；未填寫時使用空字串。",
+    "profile.learningPlan": "學習規劃內容；未填寫時使用空字串。",
+    "experiences": "經歷資料陣列；每個物件代表一筆經歷。",
+    "experiences[].id": "經歷的唯一識別碼，不可與其他經歷重複。",
+    "experiences[].category": "經歷分類，目前使用「資訊」或「非資訊」。",
+    "experiences[].title": "活動、競賽或獎項名稱。",
+    "experiences[].date": "經歷日期或年份；未知時使用空字串。",
+    "experiences[].role": "參與身分、職位或獲獎身分。",
+    "experiences[].description": "經歷的補充說明；未填寫時使用空字串。",
+    "experiences[].evidence": "證明資料陣列；沒有證明時使用空陣列。",
+    "experiences[].evidence[].label": "證明連結顯示的文字。",
+    "experiences[].evidence[].type": "證明檔案類型；圖片使用 image，PDF 等文件使用 document。",
+    "experiences[].evidence[].path": "證明照片或文件的相對路徑或網址。",
+    "projects": "作品資料陣列；每個物件代表一個作品。",
+    "projects[].id": "作品的唯一識別碼，不可與其他作品重複。",
+    "projects[].title": "作品名稱。",
+    "projects[].type": "作品形式，例如「個人」或「組別」。",
+    "projects[].description": "作品介紹；未填寫時使用空字串。",
+    "projects[].url": "作品網址；沒有網址時使用空字串。",
+    "projects[].technologies": "作品使用的技術名稱陣列；未填寫時使用空陣列。",
+    "certificates": "證照資料陣列；每個物件代表一張證照。",
+    "certificates[].id": "證照的唯一識別碼，不可與其他證照重複。",
+    "certificates[].name": "證照或檢定名稱。",
+    "certificates[].issuer": "證照發證單位。",
+    "certificates[].date": "取得證照的日期或年份；未知時使用空字串。",
+    "certificates[].evidence": "證照證明資料陣列；沒有檔案時使用空陣列。",
+    "contacts": "聯絡方式資料陣列；每個物件代表一個聯絡平台。",
+    "contacts[].id": "聯絡方式的唯一識別碼，不可與其他聯絡方式重複。",
+    "contacts[].platform": "聯絡平台名稱，例如 Discord 或 Instagram。",
+    "contacts[].label": "頁面上顯示的帳號或聯絡文字。",
+    "contacts[].url": "點擊後開啟的網址；不需開啟網址時使用空字串。",
+    "contacts[].copyValue": "點擊後要複製的文字；不需複製時使用空字串。",
+    "_fieldDescriptions": "所有 JSON 參數的中文用途說明，不會顯示在網頁中。"
+  }
+}
